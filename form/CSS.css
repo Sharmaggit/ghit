@@ -107,10 +107,15 @@ p {
 		color: darken(var(--brand-color), 20%);
 	}
 
-
-
-
-
+#submit_btn{
+	display: inline-block;
+    background-color: var(--white);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: 200;
+	border: none;
+}
 
 @media only screen and (max-width: 600px) {
 	.modal {
